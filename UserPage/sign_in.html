@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>使用者登錄</title>
+    <link rel="icon" href="../icon.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "sign_in.js"></script>
+</head>
+
+<body>
+    <img style = "width: 40vw; height: 35vh; position: absolute; right: 31.5vw; top: 31vh;" src = "sign_in_box.png">
+    <div style = "font-size: 27px; position: absolute; right: 39vw; top: 38vh;"><b>Username: </b><input id = username style = "font-size: 18px; width: 16vw; height: 4vh;" type="text" id="username"></div>
+    <div style = "font-size: 27px; position: absolute; right: 39vw; top: 45vh;"><b>Password: </b><input id = password style = "font-size: 18px; width: 16vw; height: 4vh;" type="text" id="userpassword"></div>
+    <div style = "font-size: 20px; position: absolute; left: 60vw; top: 55vh;"><a href = "sign_up.html">sign_up</a></div>
+    <div style = "position: absolute; left: 45vw; top: 55vh;"><button id="sign_in" style = "font-size: 20px;" onclick = "login()"><b>Login</b></button></div>
+    <div style = "position: absolute; left: 15vw; top: 60vh;"><a href = "說明文件.pptx" download="說明文件"><img width = 100vw height = 100vh src = "ppt.png"></a></div>
+    <div style = "font-size: 20px; color: orange; position: absolute; right: 43vw; top: 24vh;"><p>(特殊帳號密碼 special；special)</p></div>
+    <div style = "font-size: 20px; color: blue; position: absolute; right: 42.75vw; top: 20vh;"><p>(全角色帳號密碼 allstar；allstar)</p></div>
+</body>
+
+</html>

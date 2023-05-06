@@ -1,0 +1,31 @@
+.loc {
+    transform: scale(0.876);
+}
+.loc:hover {
+    transform: scale(1);
+}
+.loc21 {
+    position: absolute;
+    left: 500px;
+    top: 70px;
+}
+.loc22 {
+    position: absolute;
+    left: 400px;
+    top: 350px;
+}
+.loc30 {
+    position: absolute;
+    left: 1020px;
+    top: 130px;
+}
+.loc36 {
+    position: absolute;
+    left: 1230px;
+    top: 125px;
+}
+.loc64 {
+    position: absolute;
+    left: 278.5px;
+    top: 400.5px;
+}
